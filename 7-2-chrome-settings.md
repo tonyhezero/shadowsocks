@@ -22,12 +22,12 @@
 
 ### 1、可以直接使用本站提供的已經設置好的備份直接恢復配置（推薦）
 
-通過這個鏈接下載 switchyomega 的配置文件
+通過下面鏈接下載 SwitchyOmega 的配置文件
 
-Shadowsocks 客戶端本地 socks 端口為 1080 的可以下載: [SwitchOmega + GFWList 自动切换配置文件[1080]](https://portal.shadowsocks.to/dl.php?type=d&id=74)  
+**Windows/Linux/macOS(ShadowsocksX)**: [SwitchOmega + GFWList 自动切换配置文件[1080]](https://portal.shadowsocks.to/dl.php?type=d&id=74)   
 （適用於 Shadowsocks-Windows / Linux / ShadowsocksX(macOS) 等默認端口為 1080 的客戶端）
 
-macOS 下的 ShadowscoksX-NG 默認本地端口為 1086 可以下載：[ SwitchOmega + GFWList 自动切换配置文件[1086]](https://portal.shadowsocks.to/dl.php?type=d&id=75)  
+**macOS（ShadowscoksX-NG 默認本地端口為 1086 ）**：[ SwitchOmega + GFWList 自动切换配置文件[1086]](https://portal.shadowsocks.to/dl.php?type=d&id=75) 
 
 然後打開 `Proxy SwitchyOmega` 的設置，選擇從備份文件恢復，然後選擇剛才下載的文件，如圖
 
