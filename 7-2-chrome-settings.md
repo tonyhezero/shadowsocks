@@ -18,45 +18,49 @@
 
 本擴展同樣適用于 Firefox 57 (Firefox Quantum) 以上版本: 安裝鏈接 [Proxy SwitchyOmega](https://addons.mozilla.org/zh-CN/firefox/addon/switchyomega/)
 
-## 2、擴展的配置(以下方法 2 選 1 即可)
+## 2、擴展的配置(配合 GFWlist 實現自動區分流量)
 
-### 1、使用本站提供的已經設置好的備份直接恢復配置（推薦）
+### 1、可以直接使用本站提供的已經設置好的備份直接恢復配置（推薦）
 
 通過這個鏈接下載 switchyomega 的配置文件
 
-Windows 用戶[點擊這裏](https://portal.shadowsocks.to/dl.php?type=d&id=39)下載
+Shadowsocks 客戶端本地 socks 端口為 1080 的可以下載: [SwitchOmega + GFWList 自动切换配置文件[1080]](https://portal.shadowsocks.to/dl.php?type=d&id=74)  
+（適用於 Shadowsocks-Windows / Linux / ShadowsocksX(macOS) 等默認端口為 1080 的客戶端）
 
-macOS 用戶按客戶端不同分有兩種：
-
-1. [shadowsocksx對應的switchyomega配置文件](https://portal.shadowsocks.to/dl.php?type=d&id=55)
-2. [shadowsocksx-ng對應的switchyomega配置文件](https://portal.shadowsocks.to/dl.php?type=d&id=54)
+macOS 下的 ShadowscoksX-NG 默認本地端口為 1086 可以下載：[ SwitchOmega + GFWList 自动切换配置文件[1086]](https://portal.shadowsocks.to/dl.php?type=d&id=75)  
 
 然後打開 `Proxy SwitchyOmega` 的設置，選擇從備份文件恢復，然後選擇剛才下載的文件，如圖
 
 ![](https://ooo.0o0.ooo/2016/06/22/576a3a86d866b.png)
 
-這時點擊 `switchyomega` 圖標，可以看到有三個模式
+這時點擊 Chrome 地址欄 中的 `switchyomega` 圖標，可以看到有四個模式
 
 ```
-ss
-ss-白名單
-ss-黑名單
+直接連接
+系統代理
+Shadowsocks
+自動切換
 ```
+幾個模式的區別，當你的代理模式選中
 
-三個的區別，當你的代理模式選中
+1. **直接連接**：所有訪問都不經過代理  
+2. **系統代理**：訪問網站與系統的默認代理有關  
+3. **Shadowsocks**：擴展自身控制，所有訪問都經過代理  
+4. **自動切換**：擴展自身控制，根據規則區分網站是否經過代理，本站提供的配置使用 GFWList 控制，包含了大部分無法直接訪問的網站默認經過代理，可以直接連接的網站則不經過代理，推薦日常使用，在本文底部可以查看如何自定義配置規則
 
-1. ss，所有的網址都經過代理。
-2. ss-白名單，內置一個列表，所有匹配這個列表的網址，都不走代理，其它走代理
-3. ss-黑名單，內置一個列表，所有匹配這個列表的網址，走代理，其它不走代理
-注： 也可以選中系統代理，即使用上面所提到的系統代理
+#### 自定義規則  
 
-*記得一定要選擇 系統代理 / ss / ss-白名單 / ss-黑名單 四者其中之一，選直連不會走代理的*
+在自動切換模式點擊添加條件：
 
-（如果不准備使用本站提供的配置文件並且希望配合 GFWList 規則實現自動代理，請看下面內容）
+條件類型選擇： `域名通配符`    
+條件設置填寫： `*.域名`  
+情景模式： 選 `Shadowsocks` 則經過代理， 選 ` 直接連接` 則不經過代理  
+
+![自定義規則示例](https://i.loli.net/2018/04/23/5add7ff19ddfd.png)
 
 **（如果使用了本站提供的配置文件，請忽視下面的內容）**
 
-### 2、設置配合 GFWList 實現自動切換的模式
+### 2、手動設置
 
 按照下圖所示
 
