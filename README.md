@@ -18,7 +18,9 @@ English：[Shadowsocks Setup Guide (macOS)](3-macOS-setup-guide-en.md)
 
 ## 4 iOS 使用 Shadowsocks 設置教程
 
-[iOS 下安裝配置 Shadowsocks 使用教程](https://github.com/Shadowsocks-Wiki/shadowsocks/blob/master/4-ios-settings.md)
+简体中文：[iOS 下安裝配置 Shadowsocks 使用教程](4-ios-setup-guide-cn.md)  
+
+English：[Shadowsocks Setup Guide (iOS)](4-ios-setup-guide-en.md)
 
 ## 5 Android 使用 Shadowsocks 設置教程
 
