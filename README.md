@@ -6,9 +6,9 @@
 
 ## 2 Windows 使用 Shadowsocks 設置教程
 
-简体中文：[Windows 下安裝配置 Shadowsocks 使用教程](2-windows-settings.md)  
+简体中文：[Windows 下安裝配置 Shadowsocks 使用教程](2-windows-setup-guide-cn.md)  
 
-English：[Shadowsocks Setup Guide (Windows)](2-windows-settings-eng.md)
+English：[Shadowsocks Setup Guide (Windows)](2-windows-setup-guide-en.md)
 
 ## 3 macOS 使用 Shadowsocks 設置教程
 
