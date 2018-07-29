@@ -1,8 +1,8 @@
 # Shadowsocks 購買和使用教程
 
-## 1 購買 Shadowsocks 賬號
+## 1 如何使用我們的網站
 
-[購買流程以及查看賬號信息](https://github.com/Shadowsocks-Wiki/shadowsocks/blob/master/1-buy-shadowsocks.md)
+[客戶中心的介紹，包括購買服務、查看節點信息等内容](1-introduction-of-client-portal.md)
 
 ## 2 Windows 使用 Shadowsocks 設置教程
 
