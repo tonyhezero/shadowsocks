@@ -1,6 +1,6 @@
 # 如何使用我们的[网站](https://portal.shadowsocks.to)
 
-## 快速检索
+## 快速檢索
 * [不同版本的區別](#版本區別)
 * [注冊與購買](#注冊與購買)
 * [登陸賬戶](#登陸賬戶)
@@ -10,11 +10,19 @@
 
 
 ## 版本區別
-**入門版 / Starter**：適合偶爾使用，加速國外網站需求不强烈的客戶  
-**進階版 / Premium**：適合使用頻率較高，或是有多個設備需要使用，但對綫路不敏感的客戶  
-**旗艦版 / Ultimate**：適合對綫路敏感，要求速度保障的客戶  
-**商業版 / Enterprise**：提供定制專綫服務，適合需要獨立帶寬，高保障服務的企業用戶  
-**IPv6 Only**: 適合本地網絡支持 IPv6 環境的用戶使用  
+||[Starter](https://portal.shadowsocks.to/cart.php?a=add&pid=33)|[Premium](https://portal.shadowsocks.to/cart.php?a=add&pid=36)|[Ultimate](https://portal.shadowsocks.to/cart.php?a=add&pid=34)|[IPv6 Only](https://portal.shadowsocks.to/cart.php?a=add&pid=17)|[Enterprise](https://portal.shadowsocks.to/cart.php?a=add&pid=9)|  
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|價格（年付）|19.95 澳元|79.95 澳元|99.95澳元|19.95澳元|4999.95澳元|
+|價格（月付）|×|×|9.95澳元|×|499.95澳元|
+|服務器數量|6|10|14|8|定制|
+|普通綫路|〇|〇|〇|〇||
+|高級綫路|×|〇|〇|×||
+|中轉綫路|×|×|〇|×||
+|在綫設備數量|1|5|5|1|無限制|
+|流量配額（月）|50GB|50GB|20GB|50GB|無限制|
+|備注|適合只偶爾<br />使用的用戶|適合使用較頻繁且有多<br />個設備同時使用的用戶|適合對速度需<br />求較高的用戶|**需網絡支持IPv6**|**中港專綫(10Mbps)<br />可以定制帶寬**|
+|訂購鏈接|[立即購買](https://portal.shadowsocks.to/cart.php?a=add&pid=33)|[立即購買](https://portal.shadowsocks.to/cart.php?a=add&pid=34)|[立即購買](https://portal.shadowsocks.to/cart.php?a=add&pid=36)|[立即購買](https://portal.shadowsocks.to/cart.php?a=add&pid=17)|[立即訂購](https://portal.shadowsocks.to/cart.php?a=add&pid=9)|
+
 
 ## 注冊與購買
 
@@ -93,3 +101,18 @@
 ![選擇 "你可用的產品/服務"](files/images/int-portal-servicespage.png)  
 
 ![點擊 "二維碼" 圖標，顯示二維碼。 ](files/images/int-portal-qrcode.png)
+
+## 使用教程请參考：  
+* [Windows 下安装配置 Shadowsocks 使用教程](2-windows-setup-guide-cn.md)
+
+* [macOS 下安装配置 Shadowsocks 使用教程](3-macos-setup-guide-cn.md)
+
+* [iOS 下安装配置 Shadowsocks 使用教程](4-ios-setup-guide-cn.md)
+
+* [Android 下安装配置 Shadowsocks 使用教程](5-android-setup-guide-cn.md)
+
+* [Linux 下安装配置 Shadowsocks 使用教程](6-linux-setup-guide-cn.md)
+
+* [Firefox 设置教程](7-1-firefox-setup-guide-cn.md)
+
+* [Chrome 设置教程](7-2-chrome-setup-guide-cn.md)

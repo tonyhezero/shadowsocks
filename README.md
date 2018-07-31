@@ -32,9 +32,9 @@ English：[Shadowsocks Setup Guide (iOS)](4-ios-setup-guide-en.md)
 
 ## 7 瀏覽器設置教程
 
-1. 简体中文： [Firefox Quantum (Firefox 57 以上版本) 浏览器设置教程 （Proxy SwitchyOmega）](7-1-firefox-setup-guide-cn.md)
+1. 简体中文： [Firefox Quantum 设置教程 (Proxy SwitchyOmega)](7-1-firefox-setup-guide-cn.md)
 
-2. 简体中文： [Chrome 浏览器设置教程 （Proxy SwitchyOmega）](7-2-chrome-setup-guide-cn.md)  
+2. 简体中文： [Chrome 设置教程 (Proxy SwitchyOmega) ](7-2-chrome-setup-guide-cn.md)  
 English： [Proxy SwitchyOmega with Shadowsocks Setup Guide (Chrome)](7-2-chrome-setup-guide-en.md)
 
 ## 8 Proxifier 設置教程

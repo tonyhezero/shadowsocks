@@ -2,9 +2,9 @@
 
 **It is assumed that you have already configured the Shadowsocks client. For details, please refer to**
 
-* [Shadowsocks Setup Guide (macOS)](2-windows-setup-guide-en.md)
+* [Shadowsocks Setup Guide (Windows)](2-windows-setup-guide-en.md)
 
-* [Shadowsocks Setup Guide (macOS)](3-macOS-setup-guide-en.md)
+* [Shadowsocks Setup Guide (macOS)](3-macos-setup-guide-en.md)
 
 
 **This article does not apply to Chrome on any mobile phone.**
@@ -21,12 +21,10 @@
 
 * Download the configuration file for SwitchyOmega via the link below.
 
-* Windows/Linux/macOS (ShadowsocksX): [SwitchOmega + GFWList auto-switch configuration file [1080]](https://portal.shadowsocks.to/dl.php?type=d&id=69)
-
+* Windows/Linux/macOS (ShadowsocksX): [SwitchOmega + GFWList auto-switch configuration file [1080]](https://portal.shadowsocks.to/dl.php?type=d&id=69)  
 > (For Shadowsocks-Windows / Linux / ShadowsocksX (macOS) and other clients that the default port is 1080 .)
 
-* macOS: [SwitchOmega + GFWList auto-switch configuration file [1086]](https://portal.shadowsocks.to/dl.php?type=d&id=68)
-
+* macOS: [SwitchOmega + GFWList auto-switch configuration file [1086]](https://portal.shadowsocks.to/dl.php?type=d&id=68)  
 >(Applies to ShadowscoksX-NG, the default port is 1086.)
 
 * Click Proxy "SwitchyOmega" > "Options" > "Import/Export" > "Restore from File".
@@ -39,19 +37,18 @@ Click the "Switchyomega" icon, and you will see the following four modes:
 
 * Proxy: proxy are used as a global mode.
 
-* Auto switching: Distinguish whether a site uses proxy according to the setting.
-
+* Auto switching: Distinguish whether a site uses proxy according to the setting.  
 > The configuration provided by our website uses "GFWList", which allows most websites that cannot be accessed directly in China to use the proxy by default. It is recommended for daily use in China.
 
- ![Select the profile file you just downloaded](files/images-en/bro-switchyomega.png)
+![Select the profile file you just downloaded](files/images-en/bro-switchyomega.png)
 
 ## Custom Rules
 
-* Click "Auto Switch" > "Add a rule list".
+* Click "Auto Switch" > "Add a rule list".  
 
->* Condition type: "Host wildcard".
+>* Condition type: "Host wildcard".  
 
->* Fill in the condition settings: "*.domain name".
+>* Fill in the condition settings: "*.domain name".  
 
 >* Profile: Select "proxy" to **go through the proxy**, select "Direct" to **not go through the proxy**.
 

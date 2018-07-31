@@ -1,7 +1,7 @@
 # Shadowsocks 设置方法 (Linux)
 
 * [GUI 客户端 Shadowsocks-QT5](#Shadowosocks-QT5)
-* [命令行客户端](#)
+* [命令行客户端](#命令行客户端)
 
 ## Shadowosocks-QT5
 
@@ -48,7 +48,6 @@
 ![服务器设置](files/images/ubuntu-shadowsocksSetting.png)
 
 #### 您也可以通过二维码方式单独增加节点，在您的计算机上， 执行下列操作：
-4
 此二维码同样适用于其他客户端。
 
 * 双击`Shadowsocks-Qt5-x.x.x-x86_64.AppImage` > "Connection" > "Add" > "Scan QR code on Screen" > 当弹出新的 "Profile Editor"后，点击 "OK"。
@@ -132,9 +131,10 @@ socks5 127.0.0.1 1080
 接着我们就可以直接 用 `proxychains` + 命令的方式使用代理，例如
 
 ```
-sudo proxychains apt-get xxxx
+proxychains curl xxxx
 proxychains wget xxxx
-proxychains curl ip.sb
+
+sudo proxychains apt-get xxxx
 ```
 
 ### 5、其他程序使用

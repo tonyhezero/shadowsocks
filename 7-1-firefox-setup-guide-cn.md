@@ -4,12 +4,14 @@
 
 * [Windows 下安装配置 Shadowsocks 使用教程](2-windows-setup-guide-cn.md)
 
-* [macOS 下安装配置 Shadowsocks 使用教程](3-macOS-setup-guide-cn.md)
+* [macOS 下安装配置 Shadowsocks 使用教程](3-macos-setup-guide-cn.md)
 
 * [Linux 下安装配置 Shadowsocks 使用教程](6-linux-setup-guide-cn.md)
 
-**本文并不适合任何手机上的 Firefox 浏览器。**
+**本文并不适合任何手机上的 Firefox 浏览器。**  
 **本文仅适用于 Firefox Quantum （Firefox 57 以上版本）**
+
+**Firefox 57以下版本請參考 [Firefox 配合 GFWList 实现自动切换代理 （安装 Foxyproxy-standard 扩展)](https://github.com/Shadowsocks-Wiki/shadowsocks/blob/8f8dd4541dc423c9e5f80e33079002dee0d09e0c/7-1-firefox-settings.md)**
 
 ## 安装扩展
 
@@ -19,7 +21,7 @@
 
 * 安装后重启 Firefox > 单击右侧 “打开菜单”图标 >  “附加组件” >  找到 "Proxy SwitchyOmega"  > 点击 ”选项“ 进行配置。
 
-![附加组件](files/images/ff-firefoxAddon.png)
+![附加组件](files/images/bro-firefoxAddon.png)
 
 ## 扩展的配置
 
@@ -29,7 +31,7 @@
 
 |Windows/Linux/macOS(ShadowsocksX)|macOS|
 |:--------:|:--------:|
-|[SwitchOmega + GFWList 自动切换配置文件(1080)](downloads/https://portal.shadowsocks.to/dl.php?type=d&id=69)|[SwitchOmega + GFWList 自动切换配置文件(1086)](downloads/https://portal.shadowsocks.to/dl.php?type=d&id=68)|
+|[SwitchOmega + GFWList 自动切换配置文件(1080)](https://portal.shadowsocks.to/dl.php?type=d&id=69)|[SwitchOmega + GFWList 自动切换配置文件(1086)](https://portal.shadowsocks.to/dl.php?type=d&id=68)|
 |适用于 Shadowsocks-Windows / Linux / ShadowsocksX(macOS) 等默认端口为 1080 的客户端。|适用于ShadowscoksX-NG， 默认本地端口为 1086|
 
 * 点击 “Proxy SwitchyOmega” > "选项" > "导入/导出" > "从备份文件中恢复" 。
