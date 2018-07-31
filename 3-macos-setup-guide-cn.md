@@ -66,5 +66,16 @@
 ![pac设置](files/images/mac-pac.png)
 
 ## 注意事项
-* **PAC 模式**表示可以实现自动代理， 及本来可以访问的网站不会经过代理，推荐日常使用。
+* **PAC 模式** 表示可以实现自动代理， 及本来可以访问的网站不会经过代理，推荐日常使用。
 * **全局模式** 表示计算机内大多数流量都会经过代理， 不推荐日常使用。
+
+## 	配置 Firefox 的代理
+
+**如需使用 Firefox 浏览器	通过代理浏览网页，请参考下面链接：**  
+[Firefox上设置代理](7-1-firefox-setup-guide-cn.md)
+
+
+## 配置 Chrome 的代理
+
+**如需使用 Chrome 浏览器通过代理浏览网页，请参考下面链接：**  
+[Chrome + Proxy SwitchyOmega 设置](7-2-chrome-setup-guide-cn.md)
