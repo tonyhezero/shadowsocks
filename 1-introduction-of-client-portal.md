@@ -21,7 +21,7 @@
 |在綫設備數量|1|5|5|1|無限制|
 |流量配額（月）|50GB|50GB|20GB|50GB|無限制|
 |備注|適合只偶爾<br />使用的用戶|適合使用較頻繁且有多<br />個設備同時使用的用戶|適合對速度需<br />求較高的用戶|**需網絡支持IPv6**|**中港專綫(10Mbps)<br />可以定制帶寬**|
-|訂購鏈接|[立即購買](https://portal.shadowsocks.to/cart.php?a=add&pid=33)|[立即購買](https://portal.shadowsocks.to/cart.php?a=add&pid=34)|[立即購買](https://portal.shadowsocks.to/cart.php?a=add&pid=36)|[立即購買](https://portal.shadowsocks.to/cart.php?a=add&pid=17)|[立即訂購](https://portal.shadowsocks.to/cart.php?a=add&pid=9)|
+|訂購鏈接|[立即購買](https://portal.shadowsocks.to/cart.php?a=add&pid=33)|[立即購買](https://portal.shadowsocks.to/cart.php?a=add&pid=34)|[立即購買](https://portal.shadowsocks.to/cart.php?a=add&pid=36)|[立即購買](https://portal.shadowsocks.to/cart.php?a=add&pid=17)|[立即購買](https://portal.shadowsocks.to/cart.php?a=add&pid=9)|
 
 
 ## 注冊與購買
