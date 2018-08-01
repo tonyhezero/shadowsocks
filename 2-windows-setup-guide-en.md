@@ -72,7 +72,7 @@ This QR code also applies to other clients.
 ## Configure System Proxy Mode
 * On your system tray, right click ![alt text](files/images/win-icon.png) > "Mode" > "PAC Mode".
 
-![PAC Mode](images -en/pac.PNG)
+![PAC Mode](files/images-en/win-pac.png)
 
 * If you cannot access the website using the PAC mode, click [here](https://portal.shadowsocks.to/dl.php?type=d&id=14) to download the "pac configuration file" and drag `pac.txt` in the same directory as `Shadowsocks.exe`.
 

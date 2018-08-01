@@ -38,7 +38,7 @@
 
 #### 在您的计算机上， 执行下列操作：
 
-**点击[这里](1-introduction-of-client-portal.md)学习如何使用我们的网站下载 `gui-config.json`文件。**
+**访问 [客户中心使用指南（点我查看）](1-introduction-of-client-portal.md#下載配置文件) 了解如何使用我们的网站下载 `gui-config.json`文件。**
 
 * 将 `gui-config.json` 拖移到和 `Shadowsocks.exe` 同一个文件目录下。
 
@@ -56,7 +56,7 @@
 
 #### 通过二维码方式单独增加节点， 在您的计算机上， 执行下列操作：
 
-**点击[这里](1-introduction-of-client-portal.md)学习如何使用我们的网站查看二维码。**
+**访问 [客户中心使用指南（点我查看）](1-introduction-of-client-portal.md#查看節點二維碼) 了解如何使用我们的网站查看二维码。**
 
 此二维码同样适用于其他客户端。
 
