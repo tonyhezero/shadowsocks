@@ -39,7 +39,7 @@ English：[Shadowsocks Setup Guide (iOS)](4-ios-setup-guide-en.md)
 English：
 - [Proxy SwitchyOmega with Shadowsocks Setup Guide (Chrome)](7-2-chrome-setup-guide-en.md)
 
-## 8 Proxifier 設置教程(socker5转http代理强大工具)
+## 8 Proxifier 設置教程(socks5转http代理强大工具)
 
 [Proxifier 設置教程](https://github.com/Shadowsocks-Wiki/shadowsocks/blob/master/8-proxifier-settings.md)
 
