@@ -41,6 +41,8 @@ English：
 
 ## 8 Proxifier 設置教程(socks5转http代理强大工具)
 
+Proxifier是一款功能非常强大的socks5客户端，可以让不支持通过代理服务器工作的网络程序能通过HTTPS或SOCKS代理或代理链。
+
 [Proxifier 設置教程](https://github.com/Shadowsocks-Wiki/shadowsocks/blob/master/8-proxifier-settings.md)
 
 ## 9 自定義 DNS 服務器
